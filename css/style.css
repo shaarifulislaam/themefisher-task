@@ -7,7 +7,7 @@
     margin: 0px 229px;
 }
 .vector{
-    position: absolute;
+ position: absolute;
 left: 225px;
 right: 0%;
 top:  25px;
@@ -35,10 +35,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 16px;
-/* identical to box height, or 100% */
-
 text-align: center;
-
 color: #222222;
 }
 
@@ -48,6 +45,12 @@ color: #222222;
 }
 .margin-left{
     margin-left: 58px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+color: #222222;
 }
 .hello-text{
     font-family: 'Noticia Text';
@@ -57,27 +60,23 @@ color: #222222;
     line-height: 24px;
     margin-top: 30px;
     margin-bottom: 20px;
-    /* identical to box height, or 100% */
     text-align: center;
     letter-spacing: -0.01em;
     text-transform: capitalize;
-    
     color: #FF5733;
-}
-        
+}    
 .banner-heading{
 margin-top: 30px;
 margin-bottom: 40px;
 }
 .know-button{
-    background: #FF5733;
-    border-radius: 50px;
-    font-family: 'Roboto';
+ background: #FF5733;
+ border-radius: 50px;
+ font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 15px;
-/* identical to box height, or 94% */
 text-align: center;
 color: #FFFFFF;
 border: none;
@@ -100,6 +99,7 @@ padding: 19px 40px;
     height: 390px;
     
 }
+
 .card-img{
     padding: 50px 100px;
 
@@ -112,10 +112,7 @@ padding: 19px 40px;
     margin: 0px 150px;
   
 }
-.testimonial-img img{
-    height: 525px;
-    width: 445px;
-}
+
 ul li {
     
     list-style-type: none;
@@ -123,10 +120,11 @@ ul li {
 }
 .experiance-rotate{
     border-bottom: 3px solid #FF5733;
-    transform: rotate(2.02deg);
+    border-radius: 40%;
+    rotate: 180deg;
 }
 .provide-services{
-    position: absolute;
+ position: absolute;
 width: 1370px;
 height: 265px;
 left: 115px;
@@ -135,7 +133,7 @@ top: 1887.73px;
 background: #F9F9F9;
 }
 .rec-87{
-    box-sizing: border-box;
+box-sizing: border-box;
 position: absolute;
 width: 75px;
 height: 75px;
@@ -176,7 +174,6 @@ border-radius: 5000px;
 position: absolute;
 margin-left: -870px;
 margin-top: 280px;
-
 opacity: 0.9;
 
 } 
@@ -184,13 +181,140 @@ opacity: 0.9;
     background: #F9F9F9;
 }
 .network{
-    /* position: absolute; */
+
 width: 790px;
 height: 365px;
 left: 405px;
 top: 1021px;
 background: #F9F9F9;
 }
+.icon{
+    margin-bottom: 95px;
+    margin-top: 50px;
+    color : #AAAAAA
+}
+
 .custom-text{
-    color: #FF5733;
+    color: #FF5733 !important; 
+}
+.test {
+border-bottom: 3px solid#FF5733;
+border-radius: 50%;
+rotate: .2deg;
+}
+.blockqoute{
+  content: "\201C";
+  font-size: 5rem;
+}
+.testimonial-img{
+    height: 370px;
+}
+footer h6{
+    margin-bottom: 50px;
+}
+footer h1{
+    font-family: 'Noticia Text';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+
+text-transform: lowercase;
+color: #222222;
+}
+footer p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+/* identical to box height, or 100% */
+text-align: center;
+color: #888888;
+}
+.copyright
+{
+font-size: 15px;
+}
+h1{
+font-family: 'Noticia Text';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 74px;
+text-transform: capitalize;
+color: #222222;
+
+}
+
+.p-text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #888888;
+
+}
+h6{
+    font-family: 'Noticia Text';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+text-transform: capitalize;
+color: #555555;
+}
+.demo{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #777777;
+margin-bottom: 45px;
+}
+h2{
+    font-family: 'Noticia Text';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 36px;
+text-transform: capitalize;
+color: #222222;
+}
+blockquote{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+color: #888888;
+}
+.hr1{
+   border: 1px solid  #F1F1F1;
+}
+.hr2{
+    border: 1px solid #E2E2E2;
+}
+.hr3{
+    border: 1px solid #E7E7E7;
+}
+.service{
+    margin-top: 150px;
+    margin-bottom: 72px;
+}
+.provide{
+    margin-bottom: 160px;
+}
+.projects{
+    margin-top: 160px;
+    margin-bottom: 80px;
+}
+.partner{
+    margin-bottom: 120px;
+}
+.brunch{
+    margin-bottom: 50px;
 }
